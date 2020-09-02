@@ -1,7 +1,20 @@
 * {
+background-color: yellow;
 
 }
 
 h1 {
+font-style: normal;
+font-size: 200;
+font-family: sans-serif;
+font: Helvetica;
 
 }
+
+body {
+font: Helvetica;
+font-size: 150;
+font-family: sans-serif;
+font-style: oblique;
+
+} 
