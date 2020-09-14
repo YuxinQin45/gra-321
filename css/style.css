@@ -9,7 +9,6 @@ color: black;
 font-style: bold;
 font-size: 200;
 font-family: 'Ronnia', sans-serif;;
-line-height: 4.5em;
 }
 
 body {
@@ -18,5 +17,4 @@ color: blue;
 font-size: 100;
 font-family: 'Ronnia', sans-serif;
 font-style:normal;
-line-height: 4.5em;
 }
