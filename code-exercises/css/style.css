@@ -3,47 +3,54 @@ background-color: orange;
 
 }
 
+.container{
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fvariety.com%2F2020%2Fbiz%2Fasia%2Fhong-kong-declares-emergency-coronavirus-response-1203479971%2F&psig=AOvVaw1jc6HGmRpSGaD-NH8ZTy1Z&ust=1600170854230000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDT843L6OsCFQAAAAAdAAAAABAK);
+  background-size: cover;
+  height: 700px;
+  margin: 0 auto;
+  width: auto;
+  
+}
+
 h1 {
-background-color: white;
-color: black;
-font-style: bold;
-font-size: 48px;
-font-family: 'Ronnia', sans-serif;
+  background-color: white;
+  color: black;
+  font-style: bold;
+  font-size: 48px;
+  font-family: 'Ronnia', sans-serif;
 }
 
 h2 {
-background-color: white;
-color: black;
-font-style: bold;
-font-size: 24px;
-font-family: 'Ronnia', sans-serif;
+  background-color: white;
+  color: black;
+  font-style: bold;
+  font-size: 24px;
+  font-family: 'Ronnia', sans-serif;
 }
 
 body {
-color: blue;
-font-size: 24px;
-font-family: 'Ronnia', sans-serif;
-font-style:normal;
+  color: blue;
+  font-size: 24px;
+  font-family: 'Ronnia', sans-serif;
+  font-style:normal;
 }
 
 button {
-background-color: gold;
-border: none;
-color: white;
-font-style: bold;
-font-size: 24px;
-font-family: 'Ronnia', sans-serif;
-text-transform: uppercase;
-padding: 1em 2em 1em 2em;
+  background-color: gold;
+  border: none;
+  color: white;
+  font-style: bold;
+  font-size: 24px;
+  font-family: 'Ronnia', sans-serif;
+  padding: 1em 2em 1em 2em;
 }
 
-.button-hover:hover {
+.button-hover:hover{
   background-color: gray;
   border: none;
   color: gold;
   font-style: bold;
   font-size: 24px;
   font-family: 'Ronnia', sans-serif;
-  text-transform: uppercase;
   padding: 1em 2em 1em 2em;
-  }
+}
