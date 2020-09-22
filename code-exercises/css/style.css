@@ -4,7 +4,7 @@ background-color: orange;
 }
 
 .container{
-  background-image: url(https://cdn.pixabay.com/photo/2015/07/28/20/24/hong-kong-864884_960_720.jpg);
+  background-image: url(“https://cdn.pixabay.com/photo/2015/07/28/20/24/hong-kong-864884_960_720.jpg”);
   background-size: cover;
   height: 700px;
   margin: 0 auto;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: blue;
   font-style: bold;
   font-size: 24px;
   font-family: 'Ronnia', sans-serif;
@@ -34,33 +34,29 @@ body {
 }
 
 button {
-  background-color: gold;
+  background-color: darkblue;
   border: none;
-  color: gray;
+  color: blue;
   font-style: bold;
-  font-size: 24px;
+  font-size: 36px;
   font-family: 'Ronnia', sans-serif;
-  padding: 1em 2em 1em 2em;
+  margin-left: auto;
+  padding: 0.2em 1em 0.2em 1em;
 }
 
 .button-hover:hover{
-  background-color: gray;
   border: none;
-  color: gold;
-  font-style: bold;
-  font-size: 24px;
-  font-family: 'Ronnia', sans-serif;
-  padding: 1em 2em 1em 2em;
+  background-color: gray;
+  color: blue;
+  padding: 0.2em 1em 0.2em 1em;
 }
 
 p {
   font-family: 'Ronnia', sans-serif;
-  font-size: 52px;
-  font-weight: 500;
-  text-align: center;
-  width:100%
+  font-size: 24px;
+  font-style: bold;
+  text-align: left;
   margin: 0 auto;
-  top: 65px;
   position: relative;
 }
 
