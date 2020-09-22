@@ -4,8 +4,8 @@ background-color: orange;
 }
 
 .container{
-  background-image: url(“https://cdn.pixabay.com/photo/2015/07/28/20/24/hong-kong-864884_960_720.jpg”);
-  background-size: cover;
+  background-image: url(../img/street-3230554.jpg);
+  background-size: auto;
   height: 700px;
   margin: 0 auto;
   width: 100%;
@@ -17,6 +17,16 @@ h1 {
   font-style: bold;
   font-size: 48px;
   font-family: 'Ronnia', sans-serif;
+}
+
+p {
+  font-family: 'Ronnia', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-style: bold;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
 }
 
 h2 {
@@ -36,7 +46,7 @@ body {
 button {
   background-color: darkblue;
   border: none;
-  color: blue;
+  color: white;
   font-style: bold;
   font-size: 36px;
   font-family: 'Ronnia', sans-serif;
@@ -47,16 +57,19 @@ button {
 .button-hover:hover{
   border: none;
   background-color: gray;
-  color: blue;
+  color: white;
   padding: 0.2em 1em 0.2em 1em;
 }
 
-p {
+.media-query {
   font-family: 'Ronnia', sans-serif;
-  font-size: 24px;
-  font-style: bold;
-  text-align: left;
+  font-size: 48px;
+  color: orange;
+  font-weight: 400px;
+  text-align: center;
+  width: 100%;
   margin: 0 auto;
+  top: 400px;
   position: relative;
 }
 
@@ -65,19 +78,19 @@ p {
   .media-query {
     color:#20B2AA;
     font-style: superbold;
-}
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .media-query {
     color:#90EE90;
     font-style: bold;
-}
+  }
 }
 
 @media screen and (max-width: 500px) {
   .media-query {
     color:#87CEFA;
     font-style: regular;
-}
+  }
 }
