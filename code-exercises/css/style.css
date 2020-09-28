@@ -96,9 +96,14 @@ button {
 }
 
 .container1{
-  background-color: white;
   height: 900px;
   width: 1440px;
+  display: block;
+}
+
+* {
+background-color: white;
+
 }
 
 .title{
@@ -107,9 +112,11 @@ button {
   color: black;
   width: 100%;
   margin-left: 50px;
-  margin-right: 615px;
+  margin-right: 129PX;
   margin-top: 38px;
-  margin-bottom: 787px;
+  margin-bottom: 0PX;
+  font-weight: normal;
+  text-align: left;
 }
 
 .aunthor1{
@@ -118,17 +125,74 @@ button {
   color: black;
   width: 100%;
   margin-left: 640px;
-  margin-right: 615px;
-  margin-top: 142px;
-  margin-bottom: 758px;
+  margin-right: 129PX;
+  margin-top: 0PX;
+  margin-bottom: 0PX;
+  font-weight: normal;
+  text-align: left;
 }
 
 .bonjovi{
   float:right;
   width:436px;
   height:403px;
-  margin-left:954px;
+  margin-left: 16PX;
   margin-right: 50px;
-  margin-bottom: 476px;
   margin-top:38px;
+  margin-bottom: 52PX;
+}
+
+.paragraph1{
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  margin-left: 50px;
+  margin-right: 16PX;
+  margin-top: 0PX;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.aunthor2{
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: black;
+  width: 100%;
+  margin-left: 599px;
+  margin-right: 129PX;
+  margin-top: 43px;
+  margin-bottom: 25PX;
+  font-weight: normal;
+  text-align: left;
+}
+
+.patriciaurquiola{
+  float:left;
+  width:364px;
+  height:488px;
+}
+
+.paragraph2{
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  margin-left: 440px;
+  margin-right: 50px;
+  margin-top: 25PX;
+  margin-bottom: 72px;
+  text-align: justify;
+}
+
+.footnote{
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  margin-left: 667px;
+  margin-right: 80px;
+  margin-top: 39PX;
+  margin-bottom: 10px;
+  text-align: right;
 }
