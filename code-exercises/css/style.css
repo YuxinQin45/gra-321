@@ -94,3 +94,41 @@ button {
     font-style: regular;
   }
 }
+
+.container1{
+  background-color: white;
+  height: 900px;
+  width: 1440px;
+}
+
+.title{
+  font-family: 'Times New Roman', serif;
+  font-size: 73px;
+  color: black;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 615px;
+  margin-top: 38px;
+  margin-bottom: 787px;
+}
+
+.aunthor1{
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: black;
+  width: 100%;
+  margin-left: 640px;
+  margin-right: 615px;
+  margin-top: 142px;
+  margin-bottom: 758px;
+}
+
+.bonjovi{
+  float:right;
+  width:436px;
+  height:403px;
+  margin-left:954px;
+  margin-right: 50px;
+  margin-bottom: 476px;
+  margin-top:38px;
+}
