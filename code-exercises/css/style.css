@@ -94,21 +94,3 @@ button {
     font-style: regular;
   }
 }
-  margin-left: 440px;
-  margin-right: 40px;
-  margin-top: 40PX;
-  margin-bottom: 72px;
-  text-align: justify;
-}
-
-.footnote{
-  font-family: "Times New Roman", serif;
-  font-size: 16px;
-  color: black;
-  font-weight: normal;
-  margin-left: 667px;
-  margin-right: 80px;
-  margin-top: 39PX;
-  margin-bottom: 10px;
-  text-align: right;
-}
