@@ -7,96 +7,60 @@ background-color: white;
 .container1 {
   background-color: white;
   width: 1440px;
-  height: 900px;
 }
 
-.col-1 h1 {
+ h1 {
   font-family: 'Times New Roman', serif;
   font-size: 73px;
   color: black;
-  width: 775px;
-  margin-left: 50px;
-  margin-right: 129PX;
-  margin-top: 38px;
-  margin-bottom: 0PX;
   font-weight: normal;
   text-align: justify;
 }
 
-.col-1 h2 {
+h2 {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   color: black;
-  width: 183px;
-  margin-left: 640px;
-  margin-right: 129PX;
-  margin-top: 0PX;
-  margin-bottom: 0PX;
   font-weight: normal;
   text-align: justify;
 }
 
-.col-1 p {
-  font-family: "Times New Roman", serif;
-  font-size: 20px;
-  color: black;
-  width: 888px;
-  font-weight: normal;
-  margin-left: 50px;
-  margin-right: 16PX;
-  margin-top: 0PX;
-  margin-bottom: 30px;
-  text-align: justify;
-}
-
-.col-1 h3 {
+h3 {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   color: black;
   width: 226px;
-  margin-left: 599px;
-  margin-right: 129PX;
-  margin-top: 43px;
-  margin-bottom: 25PX;
   font-weight: normal;
   text-align: justify;
 }
 
-.col-1 img {
-  margin-left:50px;
-  margin-right: 24px;
-  margin-top:-30px;
-  margin-bottom: 0px
-}
 
-.col-2 img {
-  margin-left: 16PX;
-  margin-right: 50px;
-  margin-top: -38px;
-  margin-bottom: 52px;
-}
-
-.col-2 p {
+ p {
   font-family: "Times New Roman", serif;
   font-size: 20px;
-  color: black;
-  width: 952px;
-  font-weight: normal;
-  margin-left: 440px;
-  margin-right: 40px;
-  margin-top: 40PX;
-  margin-bottom: 72px;
   text-align: justify;
 }
 
-.footnote {
-  font-family: "Times New Roman", serif;
-  font-size: 16px;
-  color: black;
-  font-weight: normal;
-  margin-left: 667px;
-  margin-right: 80px;
-  margin-top: 39PX;
-  margin-bottom: 10px;
-  text-align: right;
+
+.row-1, .row-2 {
+  width: 100%;
+  display: block;
+  height: 50%;
+}
+
+.row-1 img, .col-left, .row-2 img, .col-right {
+  float: left;
+}
+
+.row-1 img{
+  width:500px;
+
+}
+
+.row-1 img{
+  width: 500px;
+}
+
+.col-left {
+width: 40%;
 }
