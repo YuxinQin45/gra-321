@@ -31,16 +31,11 @@ h3 {
 }
 
 
- .row-1 p {
+p {
   font-family: "Times New Roman", serif;
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
 }
-
-.row-2 p {
- font-family: "Times New Roman", serif;
- font-size: 20px;
- text-align: justify;
 
 .row-1, .row-2{
   display: flex;
@@ -48,7 +43,7 @@ h3 {
 }
 
 .col-left-top {
-  width:40%;
+  width:35%;
 }
 
 .col-right-top {
@@ -60,5 +55,5 @@ h3 {
 }
 
 .col-right-bottom {
-  width: 40%;
+  width: 35%;
 }
