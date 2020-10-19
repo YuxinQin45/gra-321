@@ -7,10 +7,10 @@ background-color: white;
 
  h1 {
   font-family: 'Times New Roman', serif;
-  font-size: 73px;
+  font-size: 24px;
   color: black;
   font-weight: normal;
-  text-align: justify;
+  text-align: left;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
   font-size: 24px;
   color: black;
   font-weight: normal;
-  text-align: justify;
+  text-align: center;
 }
 
 h3 {
@@ -27,7 +27,7 @@ h3 {
   color: black;
   width: 226px;
   font-weight: normal;
-  text-align: justify;
+  text-align: center;
 }
 
 
@@ -47,5 +47,13 @@ h3 {
 }
 
 .col-right-top {
+  width: 20%;
+}
+
+.col-left-bottom {
+  width:60%;
+}
+
+.col-right-bottom {
   width: 20%;
 }
