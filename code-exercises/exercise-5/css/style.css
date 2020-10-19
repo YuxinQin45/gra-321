@@ -4,10 +4,6 @@ background-color: white;
 
 }
 
-.container1 {
-  background-color: white;
-  width: 1440px;
-}
 
  h1 {
   font-family: 'Times New Roman', serif;
@@ -41,26 +37,15 @@ h3 {
   text-align: justify;
 }
 
-
-.row-1, .row-2 {
-  width: 100%;
-  display: block;
-  height: 50%;
+.row-1, .row-2{
+  display: flex;
+  justify-content: space-between;
 }
 
-.row-1 img, .col-left, .row-2 img, .col-right {
-  float: left;
+.col-left-top {
+  width:60%;
 }
 
-.row-1 img{
-  width:500px;
-
-}
-
-.row-1 img{
-  width: 500px;
-}
-
-.col-left {
-width: 40%;
+.col-right-top {
+  width: 20%;
 }
