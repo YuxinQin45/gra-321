@@ -31,11 +31,16 @@ h3 {
 }
 
 
- p {
+ .row-1 p {
   font-family: "Times New Roman", serif;
   font-size: 20px;
-  text-align: justify;
+  text-align: left;
 }
+
+.row-2 p {
+ font-family: "Times New Roman", serif;
+ font-size: 20px;
+ text-align: center;
 
 .row-1, .row-2{
   display: flex;
